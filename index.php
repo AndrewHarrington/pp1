@@ -13,11 +13,11 @@ printArr($numbers);
 
 echo '<br>largest <br>';
 $largest = largest($numbers);
-echo "$largest";
+echo "$largest <br>";
 
 echo '<br>average <br>';
 $average = average($numbers);
-echo "$average";
+echo "$average <br>";
 
 echo '<br>removeDups <br>';
 $newNums = removeDups($numbers);
